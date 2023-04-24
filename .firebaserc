@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "dev": "demo-project",
+    "pord": "djs-personal-website",
+    "default": "djs-personal-website"
+  },
+  "targets": {
+    "djs-personal-website": {
+      "hosting": {
+        "personal-website": [
+          "djs-personal-website"
+        ]
+      }
+    }
+  }
+}

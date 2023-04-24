@@ -1,0 +1,32 @@
+[debug] [2023-04-24T17:28:17.843Z] ----------------------------------------------------------------------
+[debug] [2023-04-24T17:28:17.844Z] Command:       /opt/homebrew/Cellar/node@18/18.16.0/bin/node /opt/homebrew/bin/firebase emulators:start
+[debug] [2023-04-24T17:28:17.844Z] CLI Version:   11.28.0
+[debug] [2023-04-24T17:28:17.844Z] Platform:      darwin
+[debug] [2023-04-24T17:28:17.845Z] Node Version:  v18.16.0
+[debug] [2023-04-24T17:28:17.845Z] Time:          Mon Apr 24 2023 10:28:17 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-04-24T17:28:17.845Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-24T17:28:17.888Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2023-04-24T17:28:17.889Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2023-04-24T17:28:17.889Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2023-04-24T17:28:17.889Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2023-04-24T17:28:17.889Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2023-04-24T17:28:17.891Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-24T17:28:17.892Z] > authorizing via signed-in user (donald.j.wolfson@gmail.com)
+[debug] [2023-04-24T17:28:17.914Z] openjdk version "20" 2023-03-21
+
+[debug] [2023-04-24T17:28:17.914Z] OpenJDK Runtime Environment Homebrew (build 20)
+OpenJDK 64-Bit Server VM Homebrew (build 20, mixed mode, sharing)
+
+[debug] [2023-04-24T17:28:17.917Z] Parsed Java major version: 20
+[info] i  emulators: Starting emulators: auth, firestore, database, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, firestore, database, hosting"}}
+[debug] [2023-04-24T17:28:18.493Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-24T17:28:18.493Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-24T17:28:18.493Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-24T17:28:18.493Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-04-24T17:28:18.493Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[debug] [2023-04-24T17:28:18.574Z] Error: getaddrinfo ENOTFOUND 127.0.0.1:8080
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:internal/dns/promises:95:17)
+[error] 
+[error] Error: An unexpected error has occurred.
